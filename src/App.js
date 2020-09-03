@@ -24,6 +24,8 @@ function App() {
          <FirstStep />
          <SecondStep />
          <ThirdStep />
+
+         { showStep(2)}
       </header>
     </div>
   );
