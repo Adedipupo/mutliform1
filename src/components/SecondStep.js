@@ -6,19 +6,19 @@ const secondStep = () => {
 return(
   <>
         <TextField
-            label="first name"
+            label="Email"
             variant="outlined"
             margin="normal"
             color="secondary"
         />
         <TextField
-            label="last name"
+            label="Country"
             variant="outlined"
             margin="normal"
             color="secondary"
         />
         <TextField
-            label="phone number"
+            label="District"
             variant="outlined"
             margin="normal"
             color="secondary"

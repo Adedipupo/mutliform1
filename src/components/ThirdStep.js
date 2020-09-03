@@ -6,19 +6,19 @@ const thirdStep = () => {
 return(
     <>
         <TextField
-            label="first name"
+            label="City"
             variant="outlined"
             margin="normal"
             color="secondary"
         />
         <TextField
-            label="last name"
+            label="Landmark"
             variant="outlined"
             margin="normal"
             color="secondary"
         />
         <TextField
-            label="phone number"
+            label="Postal Code"
             variant="outlined"
             margin="normal"
             color="secondary"
