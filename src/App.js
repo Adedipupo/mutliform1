@@ -6,6 +6,16 @@ import ThirdStep from './components/ThirdStep';
 import { Stepper , StepLabel , Step} from '@material-ui/core';
 
 function App() {
+  function showStep(step){
+    switch (step) {
+      case 1:
+        return <FirstStep />
+      case 2: 
+        return <SecondStep />
+      case 3:
+        return <ThirdStep />
+    }
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -21,9 +31,6 @@ function App() {
             <StepLabel></StepLabel>
           </Step>
         </Stepper>
-         <FirstStep />
-         <SecondStep />
-         <ThirdStep />
 
          { showStep(2)}
       </header>
