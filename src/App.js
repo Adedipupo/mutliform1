@@ -1,11 +1,13 @@
-import React from 'react';
+import React,{ useContext } from 'react';
 import './App.css';
 import FirstStep from './components/FirstStep';
 import SecondStep from './components/SecondStep';
 import ThirdStep from './components/ThirdStep';
 import { Stepper , StepLabel , Step} from '@material-ui/core';
+import { mutliStepContext } from './StepContext';
 
 function App() {
+  const { currentStep, finalData} = useContext(mutliStepContext);
   function showStep(step){
     switch (step) {
       case 1:
