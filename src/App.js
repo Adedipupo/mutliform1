@@ -32,7 +32,7 @@ function App() {
           </Step>
         </Stepper>
 
-         { showStep(2)}
+         { showStep(1)}
       </header>
     </div>
   );
