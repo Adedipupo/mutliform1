@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import FirstStep from './components/FirstStep';
-import SeconStep from './components/SecondStep';
-import thirdStep from './components/ThirdStep';
+import SecondStep from './components/SecondStep';
+import ThirdStep from './components/ThirdStep';
+import { Stepper , StepLabel , Step} from '@material-ui/core';
 
 function App() {
   return (
