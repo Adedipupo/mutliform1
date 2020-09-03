@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h3 style={{color:'red',textDecoration:'underline'}}>Multi Step Form with React</h3>
-        <Stepper>
+        <Stepper style={{width:'18%'}} activeStep="1" orientation="horizontal">
           <Step>
             <StepLabel></StepLabel>
           </Step>
