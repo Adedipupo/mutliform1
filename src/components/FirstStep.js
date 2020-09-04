@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { TextField , Button} from '@material-ui/core';
 import mutliStepContext from '../StepContext';
 
 
 const firstStep = () => {
+  const { setStep , userData , setUserData} = useContext(mutliStepContext);
   return (
     <>
       <TextField
