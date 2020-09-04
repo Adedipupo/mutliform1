@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext} from 'react';
 import { TextField, Button } from '@material-ui/core';
 import { mutliStepContext } from "../StepContext";
 
@@ -26,7 +26,7 @@ return(
             margin="normal"
             color="secondary"
         />
-        <Button variant="contained" onClick={() => setStep(1)} color="primary">Back</Button>
+        <Button variant="contained" onClick={() => setStep()} color="primary">Back</Button>
         <Button variant="contained" onClick={() => setStep(3)} color="primary">Next</Button>
     </>
 )
