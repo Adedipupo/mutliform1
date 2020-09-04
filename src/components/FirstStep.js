@@ -1,10 +1,9 @@
 import React, { useContext } from "react";
-import { TextField , Button} from '@material-ui/core';
-import mutliStepContext from '../StepContext';
+import { TextField, Button } from "@material-ui/core";
+import { mutliStepContext } from "../StepContext";
 
-
-const firstStep = () => {
-  const { setStep , userData , setUserData} = useContext(mutliStepContext);
+export default function FirstStep() {
+  const { setStep, userData, setUserData } = useContext(mutliStepContext);
   return (
     <>
       <TextField
@@ -25,9 +24,9 @@ const firstStep = () => {
         margin="normal"
         color="secondary"
       />
-      <Button variant="contained" onClick={} color="primary">Next</Button>
+      <Button variant="contained" onClick={() => setStep(2)} color="primary">
+        Next
+      </Button>
     </>
   );
-};
-
-export default firstStep;
+}
