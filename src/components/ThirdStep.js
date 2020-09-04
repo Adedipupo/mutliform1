@@ -35,7 +35,7 @@ return(
                 Back
         </Button>
             <span> </span>
-            <Button variant="contained" onClick={submitData} color="primary">
+            <Button variant="contained" onClick color="primary">
                Submit
         </Button>
         </div>
