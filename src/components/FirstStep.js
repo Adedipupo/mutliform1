@@ -1,5 +1,6 @@
 import React from "react";
 import { TextField , Button} from '@material-ui/core';
+import mutliStepContext from '../StepContext';
 
 
 const firstStep = () => {
@@ -23,7 +24,7 @@ const firstStep = () => {
         margin="normal"
         color="secondary"
       />
-      <Button variant="contained" color="primary">Next</Button>
+      <Button variant="contained" onClick={} color="primary">Next</Button>
     </>
   );
 };
