@@ -26,8 +26,19 @@ return(
             margin="normal"
             color="secondary"
         />
-        <Button variant="contained" color="primary">Back</Button>
-        <Button variant="contained" onClick={() => setStep()}  color="primary">Submit</Button>
+        <div>
+            <Button
+                variant="contained"
+                onClick={() => setStep(2)}
+                color="secondary"
+            >
+                Back
+        </Button>
+            <span> </span>
+            <Button variant="contained" onClick={() => setStep()} color="primary">
+               Submit
+        </Button>
+        </div>
     </>
 )
 }
