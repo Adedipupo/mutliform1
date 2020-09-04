@@ -35,7 +35,7 @@ return(
                 Back
         </Button>
             <span> </span>
-            <Button variant="contained" onClick={() => setStep()} color="primary">
+            <Button variant="contained" onClick={submitData} color="primary">
                Submit
         </Button>
         </div>

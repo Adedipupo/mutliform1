@@ -9,6 +9,8 @@ export default function FirstStep() {
       <TextField
         label="first name"
         variant="outlined"
+        value={userData['firstname']}
+        onChange={(e)=>setUserData({...userData, "firstname ":e.target.value})}
         margin="normal"
         color="secondary"
       />
