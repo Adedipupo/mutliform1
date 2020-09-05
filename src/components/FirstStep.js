@@ -8,16 +8,17 @@ export default function FirstStep() {
     <>
       <TextField
         label="first name"
-        value={userData['firstname']}
-        onChange={(e) =>
-          setUserData({ ...userData, "firstname": e.target.value })
-        }
+
         margin="normal"
         variant="outlined"
         color="secondary"
       />
       <TextField
         label="last name"
+        value={userData['lastname']}
+        onChange={(e) =>
+          setUserData({ ...userData, "lastname": e.target.value })
+        }
         variant="outlined"
         margin="normal"
         color="secondary"

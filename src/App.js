@@ -9,6 +9,7 @@ import { mutliStepContext } from "./StepContext";
 export default function App() {
   const { currentStep, finalData } = useContext(mutliStepContext);
  function showStep(step) {
+    // eslint-disable-next-line default-case
     switch (step) {
       case 1:
         return <FirstStep />;
