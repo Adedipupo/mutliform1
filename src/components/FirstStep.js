@@ -8,15 +8,15 @@ export default function FirstStep() {
     <>
       <TextField
         label="first name"
-        value={userData['firstname']}
-        onChange={(e)=>setUserData({...userData,"firstname":e.target.value})}
+        value={userData}
+        onChange={(e)=>setUserData({...userData, "firstname":e.target.value})}
         margin="normal"
         variant="outlined"
         color="secondary"
       />
       <TextField
         label="last name"
-        value={userData['lastname']}
+        value={userData}
         onChange={(e) => setUserData({ ...userData, "lastname": e.target.value })}
         variant="outlined"
         margin="normal"
@@ -24,7 +24,7 @@ export default function FirstStep() {
       />
       <TextField
         label="phone number"
-        value={userData['phonenumber']}
+        value={userData}
         onChange={(e) => setUserData({ ...userData, "phonenumber": e.target.value })}
         variant="outlined"
         margin="normal"
