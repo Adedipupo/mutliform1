@@ -6,7 +6,7 @@ import ThirdStep from "./components/ThirdStep";
 import { Stepper, StepLabel, Step } from "@material-ui/core";
 import { mutliStepContext } from "./StepContext";
 
-function App() {
+export default function App() {
   const { currentStep, finalData } = useContext(mutliStepContext);
  function showStep(step) {
     switch (step) {
@@ -45,5 +45,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

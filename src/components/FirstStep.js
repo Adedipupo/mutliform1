@@ -8,9 +8,9 @@ export default function FirstStep() {
     <>
       <TextField
         label="first name"
-        value={userData["firstname"]}
+        value={userData['firstname']}
         onChange={(e) =>
-          setUserData({ ...userData, firstname: e.target.value })
+          setUserData({ ...userData, "firstname": e.target.value })
         }
         margin="normal"
         variant="outlined"
