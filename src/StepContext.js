@@ -8,8 +8,9 @@ const StepContext = () => {
   const [finalData, setFinalData] = [];
 
   function submitData(){
-     setFinalData{finalData=>[...finalData,userData]};
+     setFinalData(finalData=>[...finalData,userData]);
      setUserData('');
+     setStep(1);
   }
   return (
     <div>
