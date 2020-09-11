@@ -8,21 +8,18 @@ export default function FirstStep() {
     <>
       <TextField
         label="first name"
-        value={userData}
         margin="normal"
         variant="outlined"
         color="secondary"
       />
       <TextField
         label="last name"
-        value={userData}
         variant="outlined"
         margin="normal"
         color="secondary"
       />
       <TextField
         label="phone number"
-        value={userData}
         variant="outlined"
         margin="normal"
         color="secondary"

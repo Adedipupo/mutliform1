@@ -9,21 +9,18 @@ export default function SecondStep() {
     <>
       <TextField
         label="Email"
-        value={userData['email']}
         variant="outlined"
         margin="normal"
         color="secondary"
       />
       <TextField
         label="Country"
-        value={userData['country']}
         variant="outlined"
         margin="normal"
         color="secondary"
       />
       <TextField
         label="District"
-        value={userData['district']}
         variant="outlined"
         margin="normal"
         color="secondary"

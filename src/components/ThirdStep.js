@@ -10,21 +10,18 @@ return(
     <>
         <TextField
             label="City"
-            value={userData['city']}
             variant="outlined"
             margin="normal"
             color="secondary"
         />
         <TextField
             label="Landmark"
-            value={userData['landmark']}
             variant="outlined"
             margin="normal"
             color="secondary"
         />
         <TextField
             label="Postal Code"
-            value={userData['postalcode']}
             variant="outlined"
             margin="normal"
             color="secondary"
