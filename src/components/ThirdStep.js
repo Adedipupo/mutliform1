@@ -11,7 +11,6 @@ return(
         <TextField
             label="City"
             value={userData['city']}
-            onChange={(e) => setUserData({ ...userData, "city": e.target.value })}
             variant="outlined"
             margin="normal"
             color="secondary"
@@ -19,7 +18,6 @@ return(
         <TextField
             label="Landmark"
             value={userData['landmark']}
-            onChange={(e) => setUserData({ ...userData, "landmark": e.target.value })}
             variant="outlined"
             margin="normal"
             color="secondary"
@@ -27,7 +25,6 @@ return(
         <TextField
             label="Postal Code"
             value={userData['postalcode']}
-            onChange={(e) => setUserData({ ...userData, "postalcode": e.target.value })}
             variant="outlined"
             margin="normal"
             color="secondary"
