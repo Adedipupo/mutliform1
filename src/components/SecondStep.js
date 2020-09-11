@@ -10,7 +10,6 @@ export default function SecondStep() {
       <TextField
         label="Email"
         value={userData['email']}
-        onChange={(e) => setUserData({ ...userData, "email": e.target.value })}
         variant="outlined"
         margin="normal"
         color="secondary"
@@ -18,7 +17,6 @@ export default function SecondStep() {
       <TextField
         label="Country"
         value={userData['country']}
-        onChange={(e) => setUserData({ ...userData, "country": e.target.value })}
         variant="outlined"
         margin="normal"
         color="secondary"
@@ -26,7 +24,6 @@ export default function SecondStep() {
       <TextField
         label="District"
         value={userData['district']}
-        onChange={(e) => setUserData({ ...userData, "district": e.target.value })}
         variant="outlined"
         margin="normal"
         color="secondary"
